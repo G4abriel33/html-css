@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 234, 234);
+}
+
+header{
+    display: block;
+    box-shadow: 30px;
+    right: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: auto;
+    margin: auto;
+    background-image: linear-gradient(to top, rgb(180, 139, 211), white);
+}
+
+header > h1{
+    text-align: center;
+    text-shadow: 2px 2px 8px;
+    font-size: 3em;
+    
+}
+main > article{
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    padding: 5px;
+    
+}
+
+article > p{
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+header > p{
+    text-align: justify;
+    text-align: center;
+    margin-top: 1px;
+    font-size: 1,2em;
+
+}
+
+nav{
+    background-color: rgb(183, 134, 216);
+    box-shadow: 4px 2px 4px 2px rgb(105 91 114);
+}
+nav > a{
+    display: inline;
+    color: #eae3ef;
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1,5em;
+
+}
+nav :hover{
+    background-color: blueviolet;
+}
+
+main{
+    max-width: 1000px;
+    min-width: 350px;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 2px 4px 2px rgb(105 91 114);
+}
+
+main > h1 {
+    font: italic bolder 3em "Work Sans","Sans Sarif";
+    text-align: center;
+
+}
+
+main > p{
+    text-align: justify;
+    
+}
+
+.sub{
+    padding: 8px;
+    font: italic bolder 2em "Work Sans","Sarif Sans";
+    background-image: linear-gradient(to right, rgb(180, 139, 211), aliceblue);
+    
+}
+aside{
+   
+    padding: 10px;
+    background-color: azure;
+    border-radius: 8px;
+
+}
+aside >h3 {
+    font: italic bolder 2em "Work Sans, Sans Sarif";
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+aside > ul{
+    list-style-position: inside;
+    columns: 3;
+}
+
+ picture > img{
+    display: block;
+    margin: auto;
+    
+}
+picture > iframe{
+    margin: auto;
+    display: block;
+    max-width: 450px;
+    min-width: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(180, 139, 211), aliceblue);
+    padding: 6px;
+}
+
+footer > p{
+    text-align: justify;
+    text-align: center;
+}

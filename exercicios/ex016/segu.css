@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(180, 139, 211), white);
+}
+header{
+    background-color:rgb(185, 119, 247);
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+section> h1{
+    text-align: center;
+    font: italic bolder 3em "Work Sans","Sans Sarif";
+}
+section > a{
+    display: inline;
+    padding: 0px 0px 0px 279px 
+}
+
+main{
+     width: 600px;
+     background-color: rgb(185, 119, 247);
+     margin: auto;
+     border-radius: 8px;
+}
+
+main > h2{
+    font: italic bolder 2em "work Sans","Sans Sarif";
+    padding: 8px;
+}
+main > p{
+    text-align: justify;
+    padding: 8px;
+}
+main > li{
+    padding: 2px;
+}
+
+footer{
+    background-color: rgb(185, 119, 247);
+    width: 600px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+footer > p{
+    text-align: justify;
+    padding: 8px;
+}

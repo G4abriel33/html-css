@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+    width: auto;
+    background-image:linear-gradient( to bottom, beige, white);
+    padding-top: 30px;
+    padding-bottom: 30PX;
+}
+
+
+header>h1{
+    font:italic bolder 3em "Work Sans","Sans Sarif";
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 4px 2px 4px 2px blanchedalmond;
+    padding-left: 10px;
+    margin-top: 20px;
+    padding-right: 10px;
+    
+}
+header>p{
+    font:bolder 1.5em "Work Sans","Sans Sarif";
+    max-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav{
+    width: auto;
+    display: block;
+    margin-bottom: 10px;
+    box-shadow: 6px 5px 9px -7px #48480d;
+}
+
+nav>a{
+    display: inline-block;
+    color: #c0b6c8;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1, 5em;
+}
+
+nav :hover {
+    background-color: #e1e3e1;
+}
+main{
+    max-width: 1000px;
+    min-width: 360px;
+    margin: auto;
+    background-image: url(img/wallpaper001.jpg);
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px #48480d;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.a{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 40px 200px 40px 320px;
+    background-color: beige;
+    box-shadow: 1px 1px 4px black;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div#a1{
+    background-color: blueviolet;
+}
+
+div#a2{
+    background-image: linear-gradient(to top, rgb(180, 139, 211), white);
+}
+
+div#a3{
+    background-image: url(img/pattern003.png);
+}
+footer{
+    background-color: #f0f0f0;
+    padding: 6px;
+}
+
+footer > p{
+    text-align: justify;
+    text-align: center;
+}
